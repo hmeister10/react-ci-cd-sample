@@ -14,6 +14,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
+          cd client
           npm install
           npm run build
           cp build/index.html build/404.html
