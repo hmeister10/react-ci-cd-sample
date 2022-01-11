@@ -24,4 +24,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
           BRANCH: build
-          FOLDER: build
+          FOLDER: client/build
